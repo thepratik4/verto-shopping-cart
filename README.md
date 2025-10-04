@@ -193,7 +193,16 @@ modernshop/
 └── README.md                   # Project documentation
 ```
 
+### to run test cases for checking backend
+
+step 1) cd backend
+npm run dev
+
+step 2) in new terminal
+node test-api.js
+
 ---
+
 
 ## 🔌 API Documentation
 
