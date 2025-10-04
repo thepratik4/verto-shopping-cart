@@ -25,7 +25,7 @@ router.post('/', (req, res) => {
     console.log('Order Details:', JSON.stringify(items, null, 2));
     console.log('Customer Info:', customerInfo);
     console.log('Total Items:', items.reduce((sum, item) => sum + item.quantity, 0));
-    console.log('Total Amount: $', items.reduce((sum, item) => sum + (item.price * item.quantity), 0).toFixed(2));
+    console.log('Total Amount: ₹', items.reduce((sum, item) => sum + (item.price * item.quantity), 0).toFixed(2));
     console.log('================\n');
 
     res.json({

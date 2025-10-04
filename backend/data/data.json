@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Samsung Galaxy S24 Ultra",
-    "price": 1299,
+    "price": 78299,
     "imageUrl": "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg",
     "description": "Flagship smartphone with S Pen, 200MP camera, and Snapdragon 8 Gen 3",
     "category": "Mobile",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "iPhone 15 Pro Max",
-    "price": 1199,
+    "price": 89199,
     "imageUrl": "https://images.pexels.com/photos/163117/keyboard-white-computer-keyboard-desktop-163117.jpeg",
     "description": "Titanium design, A17 Pro chip, and advanced camera system",
     "category": "Mobile",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "MacBook Pro 16-inch",
-    "price": 2499,
+    "price": 65499,
     "imageUrl": "https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg",
     "description": "M3 Pro chip, 16GB RAM, 1TB SSD - Ultimate performance for professionals",
     "category": "Laptop",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "name": "Vivo X100 Pro",
-    "price": 899,
+    "price": 39999,
     "imageUrl": "https://images.pexels.com/photos/207455/pexels-photo-207455.jpeg",
     "description": "ZEISS cameras, MediaTek Dimensity 9300, 120W fast charging",
     "category": "Mobile",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "name": "Samsung Galaxy Tab S9",
-    "price": 799,
+    "price": 77799,
     "imageUrl": "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg",
     "description": "AMOLED display, S Pen included, Snapdragon 8 Gen 2 for Galaxy",
     "category": "Tablet",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "name": "iPad Pro 12.9-inch",
-    "price": 1099,
+    "price": 56099,
     "imageUrl": "https://images.pexels.com/photos/1334598/pexels-photo-1334598.jpeg",
     "description": "M2 chip, Liquid Retina XDR display, Pro-level performance",
     "category": "Tablet",
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "name": "Gaming PC Setup",
-    "price": 1899,
+    "price": 78899,
     "imageUrl": "https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg",
     "description": "RTX 4070, Intel i7, 32GB RAM, 1TB SSD - Ultimate gaming experience",
     "category": "PC",
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "name": "OnePlus 12",
-    "price": 699,
+    "price": 45599,
     "imageUrl": "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg",
     "description": "Hasselblad camera, Snapdragon 8 Gen 3, 100W fast charging",
     "category": "Mobile",
