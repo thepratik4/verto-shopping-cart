@@ -1,3 +1,4 @@
+// types/product.ts
 export interface Product {
   id: string;
   name: string;
@@ -5,6 +6,7 @@ export interface Product {
   price: number;
   imageUrl: string;
   category: string;
+  brand: string;
 }
 
 export interface CartItem extends Product {

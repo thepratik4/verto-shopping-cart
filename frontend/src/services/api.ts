@@ -1,12 +1,14 @@
 const API_BASE_URL = 'http://localhost:5000/api';
 
-export interface ApiProduct {
-  id: number;
+
+export interface Product {
+  id: string;
   name: string;
   description: string;
   price: number;
   imageUrl: string;
   category: string;
+  brand: string;
 }
 
 export interface CheckoutRequest {

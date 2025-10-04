@@ -1,52 +1,74 @@
 [
   {
     "id": 1,
-    "name": "Gaming Laptop",
-    "price": 750,
-    "imageUrl": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg",
-    "description": "Updated description",
-    "category": "electronics",
-    "updatedAt": "2025-10-03T13:46:05.384Z"
+    "name": "Samsung Galaxy S24 Ultra",
+    "price": 1299,
+    "imageUrl": "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg",
+    "description": "Flagship smartphone with S Pen, 200MP camera, and Snapdragon 8 Gen 3",
+    "category": "Mobile",
+    "brand": "Samsung"
   },
   {
     "id": 2,
-    "name": "Smart Watch",
-    "price": 199.99,
-    "imageUrl": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg",
-    "description": "Feature-rich smartwatch with health monitoring",
-    "category": "electronics"
+    "name": "iPhone 15 Pro Max",
+    "price": 1199,
+    "imageUrl": "https://images.pexels.com/photos/163117/keyboard-white-computer-keyboard-desktop-163117.jpeg",
+    "description": "Titanium design, A17 Pro chip, and advanced camera system",
+    "category": "Mobile",
+    "brand": "Apple"
   },
   {
     "id": 3,
-    "name": "Laptop Backpack",
-    "price": 49.99,
-    "imageUrl": "https://images.pexels.com/photos/2422476/pexels-photo-2422476.jpeg",
-    "description": "Durable laptop backpack with multiple compartments",
-    "category": "accessories"
+    "name": "MacBook Pro 16-inch",
+    "price": 2499,
+    "imageUrl": "https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg",
+    "description": "M3 Pro chip, 16GB RAM, 1TB SSD - Ultimate performance for professionals",
+    "category": "Laptop",
+    "brand": "Apple"
   },
   {
     "id": 4,
-    "name": "Gaming Mouse",
-    "price": 59.99,
-    "imageUrl": "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg",
-    "description": "Precision gaming mouse with RGB lighting",
-    "category": "electronics"
+    "name": "Vivo X100 Pro",
+    "price": 899,
+    "imageUrl": "https://images.pexels.com/photos/207455/pexels-photo-207455.jpeg",
+    "description": "ZEISS cameras, MediaTek Dimensity 9300, 120W fast charging",
+    "category": "Mobile",
+    "brand": "Vivo"
   },
   {
     "id": 5,
-    "name": "USB-C Cable",
-    "price": 19.99,
-    "imageUrl": "https://images.pexels.com/photos/1586973/pexels-photo-1586973.jpeg",
-    "description": "Fast charging USB-C cable, 6ft length",
-    "category": "accessories"
+    "name": "Samsung Galaxy Tab S9",
+    "price": 799,
+    "imageUrl": "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg",
+    "description": "AMOLED display, S Pen included, Snapdragon 8 Gen 2 for Galaxy",
+    "category": "Tablet",
+    "brand": "Samsung"
   },
   {
     "id": 6,
-    "name": "Tablet",
-    "price": 268,
-    "description": "High-end tablet device",
-    "imageUrl": "https://via.placeholder.com/150",
-    "category": "electronics",
-    "createdAt": "2025-10-03T13:45:21.109Z"
+    "name": "iPad Pro 12.9-inch",
+    "price": 1099,
+    "imageUrl": "https://images.pexels.com/photos/1334598/pexels-photo-1334598.jpeg",
+    "description": "M2 chip, Liquid Retina XDR display, Pro-level performance",
+    "category": "Tablet",
+    "brand": "Apple"
+  },
+  {
+    "id": 7,
+    "name": "Gaming PC Setup",
+    "price": 1899,
+    "imageUrl": "https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg",
+    "description": "RTX 4070, Intel i7, 32GB RAM, 1TB SSD - Ultimate gaming experience",
+    "category": "PC",
+    "brand": "ASUS"
+  },
+  {
+    "id": 8,
+    "name": "OnePlus 12",
+    "price": 699,
+    "imageUrl": "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg",
+    "description": "Hasselblad camera, Snapdragon 8 Gen 3, 100W fast charging",
+    "category": "Mobile",
+    "brand": "OnePlus"
   }
 ]

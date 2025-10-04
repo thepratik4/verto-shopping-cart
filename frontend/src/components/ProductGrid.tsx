@@ -19,7 +19,8 @@ export const ProductGrid = () => {
           description: p.description,
           price: p.price,
           imageUrl: p.imageUrl,
-          category: p.category
+          category: p.category,
+          brand: p.brand || ' '
         }));
         setProducts(formattedProducts);
         setError(null);

@@ -153,7 +153,7 @@ export const CartSidebar = () => {
                         </div>
 
                         <span className="font-bold text-gray-900">
-                          ${(item.price * item.quantity).toFixed(2)}
+                          ₹{(item.price * item.quantity).toFixed(2)}
                         </span>
                       </div>
                     </div>
@@ -165,7 +165,7 @@ export const CartSidebar = () => {
                 <div className="space-y-3 mb-6">
                   <div className="flex justify-between text-sm text-gray-600">
                     <span>Subtotal</span>
-                    <span>${cartTotal.toFixed(2)}</span>
+                    <span>₹{cartTotal.toFixed(2)}</span>
                   </div>
                   <div className="flex justify-between text-sm text-gray-600">
                     <span>Shipping</span>
@@ -174,7 +174,7 @@ export const CartSidebar = () => {
                   <div className="h-px bg-gray-200" />
                   <div className="flex justify-between text-lg font-bold text-gray-900">
                     <span>Total</span>
-                    <span>${cartTotal.toFixed(2)}</span>
+                    <span>₹{cartTotal.toFixed(2)}</span>
                   </div>
                 </div>
 

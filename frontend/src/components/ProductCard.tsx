@@ -1,4 +1,4 @@
-import { ShoppingCart } from 'lucide-react';
+import { Plus } from 'lucide-react';
 import { Product } from '../types/product';
 import { useCart } from '../context/CartContext';
 import { useState } from 'react';
@@ -14,59 +14,66 @@ export const ProductCard = ({ product }: ProductCardProps) => {
   const handleAddToCart = () => {
     setIsAdding(true);
     addToCart(product);
-
-    setTimeout(() => {
-      setIsAdding(false);
-    }, 600);
+    setTimeout(() => setIsAdding(false), 600);
   };
 
   return (
-    <div className="group relative bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 transform hover:-translate-y-1">
-      <div className="relative overflow-hidden aspect-square bg-gray-100">
-        <img
-          src={product.imageUrl}
-          alt={product.name}
-          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+    <div className="group bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-lg transition-all duration-300 hover:border-gray-200">
+      {/* Brand/Store Header */}
+      <div className="px-4 pt-4 pb-2">
+        <span className="text-sm font-semibold text-gray-900">{product.brand || 'Brand'}</span>
       </div>
 
-      <div className="p-6">
-        <div className="mb-2">
-          <span className="text-xs font-medium text-gray-500 uppercase tracking-wider">
+      {/* Product Image */}
+      <div className="px-4">
+        <div className="relative aspect-square bg-gray-50 rounded-xl overflow-hidden">
+          <img
+            src={product.imageUrl}
+            alt={product.name}
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+        </div>
+      </div>
+
+      {/* Product Info */}
+      <div className="p-4 space-y-3">
+        {/* Category */}
+        <div className="mb-1">
+          <span className="text-xs font-medium text-gray-500 uppercase tracking-wide">
             {product.category}
           </span>
         </div>
 
-        <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
+        {/* Product Name */}
+        <h3 className="text-sm font-semibold text-gray-900 line-clamp-2 leading-tight">
           {product.name}
         </h3>
 
-        <p className="text-sm text-gray-600 mb-4 line-clamp-2">
-          {product.description}
-        </p>
-
+        {/* Price Section */}
         <div className="flex items-center justify-between">
-          <span className="text-2xl font-bold text-gray-900">
-            ${product.price.toFixed(2)}
-          </span>
+          <div className="flex items-baseline gap-2">
+            <span className="text-lg font-bold text-gray-900">
+              ₹{product.price.toFixed(0)}
+            </span>
+          </div>
 
+          {/* Add to Cart Button */}
           <button
             onClick={handleAddToCart}
             disabled={isAdding}
             className={`
-              flex items-center gap-2 px-5 py-2.5 rounded-xl font-medium
+              flex items-center justify-center gap-1 px-3 py-2 rounded-lg font-medium text-sm
               transition-all duration-300 transform
               ${isAdding
                 ? 'bg-green-500 text-white scale-95'
-                : 'bg-blue-600 text-white hover:bg-blue-700 hover:scale-105 active:scale-95'
+                : 'bg-blue-50 text-blue-600 hover:bg-blue-100 hover:scale-105 active:scale-95'
               }
-              shadow-md hover:shadow-lg
+              border border-blue-200
             `}
           >
-            <ShoppingCart className={`w-4 h-4 transition-transform duration-300 ${isAdding ? 'scale-0' : 'scale-100'}`} />
-            <span className="text-sm">
-              {isAdding ? 'Added!' : 'Add to Cart'}
+            <Plus className={`w-4 h-4 ${isAdding ? 'scale-0 absolute' : 'scale-100'}`} />
+            <span className={isAdding ? 'scale-110' : 'scale-100'}>
+              {isAdding ? 'Added' : 'Add'}
             </span>
           </button>
         </div>

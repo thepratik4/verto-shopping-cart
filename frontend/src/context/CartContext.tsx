@@ -52,7 +52,7 @@ export const CartProvider = ({ children }: CartProviderProps) => {
 
       return [...prevItems, { ...product, quantity: 1 }];
     });
-    setIsCartOpen(true);
+    setIsCartOpen(false);
   };
 
   const removeFromCart = (productId: string) => {
