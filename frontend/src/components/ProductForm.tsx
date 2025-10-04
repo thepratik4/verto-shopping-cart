@@ -15,6 +15,7 @@ export const ProductForm = ({ product, onSubmit, onClose }: ProductFormProps) =>
     price: '',
     imageUrl: '',
     category: 'electronics',
+    brand: '',
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState('');
@@ -27,6 +28,7 @@ export const ProductForm = ({ product, onSubmit, onClose }: ProductFormProps) =>
         price: String(product.price),
         imageUrl: product.imageUrl,
         category: product.category,
+        brand: product.brand,
       });
     }
   }, [product]);
@@ -125,7 +127,7 @@ export const ProductForm = ({ product, onSubmit, onClose }: ProductFormProps) =>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
               <label htmlFor="price" className="block text-sm font-medium text-gray-700 mb-2">
-                Price ($) <span className="text-red-500">*</span>
+                Price (₹) <span className="text-red-500">*</span>
               </label>
               <input
                 type="number"
