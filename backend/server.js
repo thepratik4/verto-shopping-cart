@@ -9,7 +9,7 @@ const PORT = 5000;
 app.use(cors());
 app.use(express.json());
 
-// Use your modular routes - FIXED TYPO HERE
+
 app.use("/api/products", productsRouter); // Changed from proproductRouter
 app.use("/api/checkout", checkoutRouter);
 

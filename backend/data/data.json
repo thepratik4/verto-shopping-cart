@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Gaming Laptop",
-    "price": 75000,
+    "price": 750,
     "imageUrl": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg",
     "description": "Updated description",
     "category": "electronics",
@@ -43,7 +43,7 @@
   {
     "id": 6,
     "name": "Tablet",
-    "price": 26896,
+    "price": 268,
     "description": "High-end tablet device",
     "imageUrl": "https://via.placeholder.com/150",
     "category": "electronics",
