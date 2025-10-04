@@ -18,7 +18,7 @@ git --version
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Step 1: Clone the Repository
 
@@ -42,7 +42,7 @@ cd ../frontend
 npm install
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React 18.3.1** - UI library
@@ -60,7 +60,7 @@ npm install
 
 ---
 
-## 📦 Prerequisites
+### Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -77,7 +77,7 @@ Before you begin, ensure you have the following installed:
 
 ---
 
-## 🏃 Running the Application
+##  Running the Application
 
 You need to run both backend and frontend servers simultaneously.
 
