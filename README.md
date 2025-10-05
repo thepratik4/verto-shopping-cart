@@ -1,3 +1,4 @@
+### admin panel password : admin123
 
 ModernShop - Full Stack E-Commerce Application
 
